@@ -322,10 +322,14 @@ img {
 .icons-social-network {
   display: flex;
   fill: var(--button-color);
+
+  width: 20px;
+  height: 20px;
 }
+
 .social-network-link:hover,
 .social-network-link:focus {
- background-color: #188ce8;
+ background-color: var(--button-color);
  }
 .social-network-link:hover .icons-social-network,
 .social-network-link:focus .icons-social-network {

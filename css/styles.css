@@ -122,7 +122,7 @@ img {
 .p-number:hover {
   color: var(--button-color);
 }
-.contacts-icon {
+.icon-mail {
   display: inline-block;
   margin-right: 10px;
 
@@ -350,11 +350,12 @@ img {
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
+  gap: 30px;
 }
 .portfolio-lists {
   font-size: 16px;
   line-height: 1.9;
-  margin-right: 30px;
+  margin-right: 0;
   margin-left: 0;
   margin-top: 30px;
   margin-bottom: 30px;

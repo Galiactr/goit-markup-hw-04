@@ -368,9 +368,14 @@ img {
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
 }
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--button-color);
+  color: var(--button-color);
+}
 .clientts-item {
  width: 170px;
-height: 92px;
+ height: 92px;
 }
 
 

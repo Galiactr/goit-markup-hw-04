@@ -125,7 +125,11 @@ img {
 .icon-mail {
   display: inline-block;
   margin-right: 10px;
-
+  fill: currentColor;
+}
+.icon-phone {
+  display: inline-block;
+  margin-right: 10px;
   fill: currentColor;
 }
 /* Герой */

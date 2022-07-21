@@ -304,6 +304,33 @@ img {
   margin-top: 0;
   text-align: center;
 }
+.social-network-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+.social-network-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.icons-social-network {
+  display: flex;
+  fill: var(--button-color);
+}
+.social-network-link:hover,
+.social-network-link:focus {
+ background-color: #188ce8;
+ }
+.social-network-link:hover .icons-social-network,
+.social-network-link:focus .icons-social-network {
+  fill: var(--hover-icon-color);
+}
 
 /* Портфолио */
 

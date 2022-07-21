@@ -134,12 +134,26 @@ img {
 }
 /* Герой */
 
-.section.hero {
+.hero {
   background-color: #2f303a;
   text-align: center;
   color: var(--wight-text);
   padding-top: 200px;
   padding-bottom: 200px;
+
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img_hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   margin-top: 0;

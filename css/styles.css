@@ -515,8 +515,8 @@ img {
   margin: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.logo-footer {
+  }
+ .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   color: var(--button-color);
@@ -551,4 +551,39 @@ img {
  }
 .contact-list-item.phone {
   margin-bottom: 0;
+}
+/* Футер второй */
+
+.container-second-footer {
+  padding-top: 15px;
+  }
+.footer-tittle {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+  color: var(--wight-text);
+}
+.social-list {
+  display: flex;
+  list-style: none;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.icons-social {
+  fill: var(--wight-text);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--button-color);;
 }

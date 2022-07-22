@@ -526,7 +526,14 @@ img {
   display: block;
   margin-bottom: 20px;
  } 
-
+ .footer-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+ }
+ address {
+  margin-right: 70px;
+ }
 .logo-accent-footer {
   color: var(--wight-text);
   font-weight: 700;
@@ -539,7 +546,7 @@ img {
   line-height: 1.7;
   color: var(--wight-text);
   display: block
- }
+}
  .contact-list-item {
   margin-bottom: 9px;
  }
@@ -582,6 +589,9 @@ img {
 }
 .icons-social {
   fill: var(--wight-text);
+  width: 20px;
+  height: 20px;
+  align-items: center;
 }
 .social-link:hover,
 .social-link:focus {

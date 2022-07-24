@@ -316,7 +316,7 @@ img {
   justify-content: center;
   align-items: center;
 
-   width: 44px;
+  width: 44px;
   height: 44px;
   border-radius: 50%;
 }
@@ -513,6 +513,9 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   }
+  .cont-footer {
+    display: flex;
+  }
  .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -523,11 +526,7 @@ img {
   display: block;
   margin-bottom: 20px;
  } 
- .footer-container {
-  display: flex;
-  align-items: center;
-  margin: 0;
- }
+ 
  address {
   margin-right: 70px;
  }

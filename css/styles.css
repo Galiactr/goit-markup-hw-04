@@ -322,7 +322,7 @@ img {
 }
 .icons-social-network {
   display: flex;
-  fill: var(--button-color);
+  fill: var(--primary-icon-color);
 
   width: 20px;
   height: 20px;
@@ -330,12 +330,13 @@ img {
 
 .social-network-link:hover,
 .social-network-link:focus {
+ color: var(--wight-text);
  background-color: var(--button-color);
- }
+  } 
 .social-network-link:hover .icons-social-network,
 .social-network-link:focus .icons-social-network {
-  fill: var(--hover-icon-color);
-}
+  fill: var(--wight-text);
+  } 
 
 /* Клиенты */
 

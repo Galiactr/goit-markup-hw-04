@@ -578,10 +578,9 @@ display: block;
 .social-list {
   display: flex;
   list-style: none;
+  gap: 10px;
 }
-.social-item {
- border: 50%;
-}
+
 .social-link {
   display: flex;
   justify-content: center;

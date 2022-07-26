@@ -335,7 +335,9 @@ img {
   width: 20px;
   height: 20px;
 }
-
+.icons-social-network:hover {
+  color: var(--wight-text);
+}
 .social-network-link:hover,
 .social-network-link:focus {
  color: var(--wight-text);

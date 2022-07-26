@@ -34,6 +34,13 @@ img {
   padding: 0;
   padding-bottom: 94px;
 }
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
 
 /* Шапка */
 
@@ -48,7 +55,7 @@ img {
   display: flex;
   text-align: center;
 }
-.main-nav {
+.navigation {
   display: flex;
   margin-right: 0;
   margin-left: 0;
@@ -93,7 +100,7 @@ img {
 .item .link:focus {
   color: var(--button-color);
 }
-.contact-info {
+ .contacts-list {
   list-style: none;
   display: flex;
   margin-top: 0;
@@ -101,38 +108,38 @@ img {
   margin-left: auto;
   padding-left: 0;
   align-items: center;
-}
-.item-contact {
+  }
+ .contacts-list-item {
+  gap: 50px; 
+} 
+.contacts-list-item:not(:last-child) {
   margin-right: 50px;
 }
-.item-contact:not(:last-child) {
-  margin-right: 50px;
-}
-.email,
-.p-number {
+.contacts-list-link {
   text-decoration: none;
   color: var(--text-color);
+  letter-spacing: 0.02em;
+  align-items: center;
+  display: flex;
 }
-.email:hover {
-  color: var(--button-color);
-}
-.p-number {
+.contacts-list-link {
   margin: 0;
 }
+.contacts-icon {
+  display: inline-block;
+  margin-right: 10px;
 
-.p-number:hover {
+  fill: currentColor;
+}
+.link:hover,
+.link:focus {
   color: var(--button-color);
 }
-.icon-mail {
-  display: inline-block;
-  margin-right: 10px;
-  fill: currentColor;
-}
-.icon-phone {
-  display: inline-block;
-  margin-right: 10px;
-  fill: currentColor;
-}
+.contacts-icon:hover,
+.contacts-icon:focus {
+   color: var(--button-color);
+} 
+
 /* Герой */
 
 .hero {

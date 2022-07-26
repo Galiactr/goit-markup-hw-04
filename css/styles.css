@@ -479,9 +479,7 @@ button {
   line-height: 1.9;
   margin-right: 0;
   margin-left: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+  }
 .portfolio-lists:nth-child(3n) {
   margin-right: 0;
 } 

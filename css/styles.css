@@ -21,6 +21,13 @@ ul {
 }
 img {
   display: block;
+
+  width: 100%;
+	height: auto;
+}
+a:focus,
+button {
+	outline: none;
 }
 .container {
   margin: 0 auto;
@@ -376,15 +383,16 @@ img {
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
 }
+.clients-logo {
+	display: inline-flex;
+	fill: currentColor;
+}
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--button-color);
   color: var(--button-color);
 }
-.clientts-item {
- width: 170px;
- height: 92px;
-}
+
 
 
 /* Портфолио */

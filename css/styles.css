@@ -541,9 +541,12 @@ display: block;
   padding-top: 60px;
   padding-bottom: 60px;
   }
-  .cont-footer {
+.footer-container {
+  margin-right: 70px;
+}
+.cont-footer {
     display: flex;
-    margin-right: 70px;
+    align-items: baseline;
   }
  .logo-footer {
   text-decoration: none;
@@ -555,11 +558,7 @@ display: block;
   display: block;
   margin-bottom: 20px;
  } 
- 
- address {
-  margin-right: 70px;
- }
-.logo-accent-footer {
+ .logo-accent-footer {
   color: var(--wight-text);
   font-weight: 700;
 }
@@ -586,9 +585,6 @@ display: block;
 }
 /* Футер второй */
 
-.container-second-footer {
-  padding-top: 15px;
-  }
 .footer-tittle {
   margin-bottom: 20px;
 
